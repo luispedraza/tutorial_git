@@ -8,8 +8,8 @@ int main()
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    for (int i = 1; i <= n; ++i) {
-        sum += i;
+    for (int j = 1; j <= n; ++j) {
+        sum += j;
     }
 
     cout << "Sum = " << sum;
